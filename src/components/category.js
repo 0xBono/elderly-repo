@@ -25,7 +25,7 @@ class Category extends React.Component {
                 style={{
                   alignContent: 'center',
                   textAlign: 'center',
-                  fontSize: 15,
+                  fontSize: 14,
                   fontWeight: '100',
                   color: '#212121',
                 }}>
@@ -42,8 +42,8 @@ class Category extends React.Component {
 const styles = StyleSheet.create({
   container: {flex: 1},
   category: {
-    height: hp('15%'),
-    width: wp('20%'),
+    height: hp('13%'),
+    width: wp('21%'),
   },
   Icons: {},
 });
