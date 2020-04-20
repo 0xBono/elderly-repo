@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-native-maps": "0.27.1",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-safe-area-view": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -26,8 +29,8 @@
     "eslint": "^6.5.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
-    "react-test-renderer": "16.9.0",
     "prettier": "^1.19.1",
+    "react-test-renderer": "16.9.0",
     "typescript": "^3.7.3"
   },
   "jest": {
