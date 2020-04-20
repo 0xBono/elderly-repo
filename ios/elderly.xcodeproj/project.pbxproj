@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* elderlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* elderlyTests.m */; };
+		00E356F31AD99517003FC87E /* ElderlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ElderlyTests.m */; };
+		0699C22CE0C91D8A3116C8F5 /* libPods-Elderly-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5DB331CA84236E9046834 /* libPods-Elderly-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18A621E2C59B1568992D3F03 /* libPods-Elderly-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5045DB73A451CE44102300B /* libPods-Elderly-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* elderlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* elderlyTests.m */; };
-		46262DA1BA7B69A8AFFA30A3 /* libPods-elderly-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A595229FD93143CA3691DD9 /* libPods-elderly-tvOSTests.a */; };
-		587ECD5C556C7AEE0075D979 /* libPods-elderly-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5342AAF7F079FF5C10DFDBE6 /* libPods-elderly-tvOS.a */; };
-		724B43BBD70578EDF6F68CC4 /* libPods-elderly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3423F255DBA343DAE14B1612 /* libPods-elderly.a */; };
-		B6A44086BCE7B3D1C6292A7D /* libPods-elderlyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3438F7F583C3A54B82FEF21 /* libPods-elderlyTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ElderlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ElderlyTests.m */; };
+		6594B8452F3A7C59E18B4C56 /* libPods-Elderly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCF4CB030B80863C5C22168 /* libPods-Elderly.a */; };
+		FC3EEC0691502E2CB51E85C4 /* libPods-ElderlyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B565EF4054C766B7F347C2AA /* libPods-ElderlyTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = elderly;
+			remoteInfo = Elderly;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "elderly-tvOS";
+			remoteInfo = "Elderly-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* elderlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elderlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ElderlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElderlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* elderlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = elderlyTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* elderly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elderly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = elderly/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = elderly/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ElderlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElderlyTests.m; sourceTree = "<group>"; };
+		05E957ABD7C21A6ECBC72BD0 /* Pods-Elderly-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Elderly-tvOSTests/Pods-Elderly-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Elderly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elderly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Elderly/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Elderly/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = elderly/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = elderly/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = elderly/main.m; sourceTree = "<group>"; };
-		1918E1EE212BFF4B2DFB39BD /* Pods-elderlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderlyTests.release.xcconfig"; path = "Target Support Files/Pods-elderlyTests/Pods-elderlyTests.release.xcconfig"; sourceTree = "<group>"; };
-		2B715F36580FAC03F5E29B25 /* Pods-elderly-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderly-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-elderly-tvOSTests/Pods-elderly-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* elderly-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "elderly-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* elderly-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "elderly-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3423F255DBA343DAE14B1612 /* libPods-elderly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-elderly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52B37BDE46ED3189F6713CAE /* Pods-elderly-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderly-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-elderly-tvOS/Pods-elderly-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5342AAF7F079FF5C10DFDBE6 /* libPods-elderly-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-elderly-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6194A38C720980BB1CA75894 /* Pods-elderly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderly.debug.xcconfig"; path = "Target Support Files/Pods-elderly/Pods-elderly.debug.xcconfig"; sourceTree = "<group>"; };
-		9A595229FD93143CA3691DD9 /* libPods-elderly-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-elderly-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B888C2C1D2C372FEA6125D97 /* Pods-elderly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderly.release.xcconfig"; path = "Target Support Files/Pods-elderly/Pods-elderly.release.xcconfig"; sourceTree = "<group>"; };
-		C6208350CF131899B62629FF /* Pods-elderly-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderly-tvOS.release.xcconfig"; path = "Target Support Files/Pods-elderly-tvOS/Pods-elderly-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		D4FAEF807A6CFC3DEE88D581 /* Pods-elderly-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderly-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-elderly-tvOSTests/Pods-elderly-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Elderly/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Elderly/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Elderly/main.m; sourceTree = "<group>"; };
+		1C44F6FB65E80717DB54A3E9 /* Pods-Elderly-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Elderly-tvOSTests/Pods-Elderly-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Elderly-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elderly-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Elderly-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elderly-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C5DB331CA84236E9046834 /* libPods-Elderly-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elderly-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1292B1CEAF76C7B10B1D59 /* Pods-Elderly-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Elderly-tvOS/Pods-Elderly-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		819B0B609F95E5C0C51923D6 /* Pods-Elderly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly.debug.xcconfig"; path = "Target Support Files/Pods-Elderly/Pods-Elderly.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC29363670948AA4275057B /* Pods-ElderlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElderlyTests.debug.xcconfig"; path = "Target Support Files/Pods-ElderlyTests/Pods-ElderlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCF4CB030B80863C5C22168 /* libPods-Elderly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elderly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5045DB73A451CE44102300B /* libPods-Elderly-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elderly-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B565EF4054C766B7F347C2AA /* libPods-ElderlyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElderlyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7C66DB0744C2340909C160 /* Pods-Elderly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly.release.xcconfig"; path = "Target Support Files/Pods-Elderly/Pods-Elderly.release.xcconfig"; sourceTree = "<group>"; };
+		C40783B1A68048D4B07723BC /* Pods-Elderly-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Elderly-tvOS/Pods-Elderly-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C8DF593754185458443AFC57 /* Pods-ElderlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElderlyTests.release.xcconfig"; path = "Target Support Files/Pods-ElderlyTests/Pods-ElderlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F237F78378FF2A43013F2EA2 /* Pods-elderlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elderlyTests.debug.xcconfig"; path = "Target Support Files/Pods-elderlyTests/Pods-elderlyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F3438F7F583C3A54B82FEF21 /* libPods-elderlyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-elderlyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A44086BCE7B3D1C6292A7D /* libPods-elderlyTests.a in Frameworks */,
+				FC3EEC0691502E2CB51E85C4 /* libPods-ElderlyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724B43BBD70578EDF6F68CC4 /* libPods-elderly.a in Frameworks */,
+				6594B8452F3A7C59E18B4C56 /* libPods-Elderly.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587ECD5C556C7AEE0075D979 /* libPods-elderly-tvOS.a in Frameworks */,
+				18A621E2C59B1568992D3F03 /* libPods-Elderly-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46262DA1BA7B69A8AFFA30A3 /* libPods-elderly-tvOSTests.a in Frameworks */,
+				0699C22CE0C91D8A3116C8F5 /* libPods-Elderly-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* elderlyTests */ = {
+		00E356EF1AD99517003FC87E /* ElderlyTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* elderlyTests.m */,
+				00E356F21AD99517003FC87E /* ElderlyTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = elderlyTests;
+			path = ElderlyTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* elderly */ = {
+		13B07FAE1A68108700A75B9A /* Elderly */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = elderly;
+			name = Elderly;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,25 +141,25 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3423F255DBA343DAE14B1612 /* libPods-elderly.a */,
-				5342AAF7F079FF5C10DFDBE6 /* libPods-elderly-tvOS.a */,
-				9A595229FD93143CA3691DD9 /* libPods-elderly-tvOSTests.a */,
-				F3438F7F583C3A54B82FEF21 /* libPods-elderlyTests.a */,
+				9BCF4CB030B80863C5C22168 /* libPods-Elderly.a */,
+				B5045DB73A451CE44102300B /* libPods-Elderly-tvOS.a */,
+				50C5DB331CA84236E9046834 /* libPods-Elderly-tvOSTests.a */,
+				B565EF4054C766B7F347C2AA /* libPods-ElderlyTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		63729A0208D3DE8AB4FB4526 /* Pods */ = {
+		505E3BF95CA087A454BBCC55 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6194A38C720980BB1CA75894 /* Pods-elderly.debug.xcconfig */,
-				B888C2C1D2C372FEA6125D97 /* Pods-elderly.release.xcconfig */,
-				52B37BDE46ED3189F6713CAE /* Pods-elderly-tvOS.debug.xcconfig */,
-				C6208350CF131899B62629FF /* Pods-elderly-tvOS.release.xcconfig */,
-				2B715F36580FAC03F5E29B25 /* Pods-elderly-tvOSTests.debug.xcconfig */,
-				D4FAEF807A6CFC3DEE88D581 /* Pods-elderly-tvOSTests.release.xcconfig */,
-				F237F78378FF2A43013F2EA2 /* Pods-elderlyTests.debug.xcconfig */,
-				1918E1EE212BFF4B2DFB39BD /* Pods-elderlyTests.release.xcconfig */,
+				819B0B609F95E5C0C51923D6 /* Pods-Elderly.debug.xcconfig */,
+				BB7C66DB0744C2340909C160 /* Pods-Elderly.release.xcconfig */,
+				C40783B1A68048D4B07723BC /* Pods-Elderly-tvOS.debug.xcconfig */,
+				6F1292B1CEAF76C7B10B1D59 /* Pods-Elderly-tvOS.release.xcconfig */,
+				05E957ABD7C21A6ECBC72BD0 /* Pods-Elderly-tvOSTests.debug.xcconfig */,
+				1C44F6FB65E80717DB54A3E9 /* Pods-Elderly-tvOSTests.release.xcconfig */,
+				8DC29363670948AA4275057B /* Pods-ElderlyTests.debug.xcconfig */,
+				C8DF593754185458443AFC57 /* Pods-ElderlyTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,12 +175,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* elderly */,
+				13B07FAE1A68108700A75B9A /* Elderly */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* elderlyTests */,
+				00E356EF1AD99517003FC87E /* ElderlyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				63729A0208D3DE8AB4FB4526 /* Pods */,
+				505E3BF95CA087A454BBCC55 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* elderly.app */,
-				00E356EE1AD99517003FC87E /* elderlyTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* elderly-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* elderly-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Elderly.app */,
+				00E356EE1AD99517003FC87E /* ElderlyTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Elderly-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Elderly-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,11 +201,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* elderlyTests */ = {
+		00E356ED1AD99517003FC87E /* ElderlyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "elderlyTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ElderlyTests" */;
 			buildPhases = (
-				91DEBFBF0AAF5DF3843A506D /* [CP] Check Pods Manifest.lock */,
+				58E9759C2871BBE872850E29 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -215,37 +215,36 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = elderlyTests;
-			productName = elderlyTests;
-			productReference = 00E356EE1AD99517003FC87E /* elderlyTests.xctest */;
+			name = ElderlyTests;
+			productName = ElderlyTests;
+			productReference = 00E356EE1AD99517003FC87E /* ElderlyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* elderly */ = {
+		13B07F861A680F5B00A75B9A /* Elderly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "elderly" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Elderly" */;
 			buildPhases = (
-				F8D27BF79D32EF5F38FA6F7B /* [CP] Check Pods Manifest.lock */,
+				2AEF685E8EE2E9B519DCFCED /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0F7256A767F4851559215023 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = elderly;
-			productName = elderly;
-			productReference = 13B07F961A680F5B00A75B9A /* elderly.app */;
+			name = Elderly;
+			productName = Elderly;
+			productReference = 13B07F961A680F5B00A75B9A /* Elderly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* elderly-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Elderly-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "elderly-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Elderly-tvOS" */;
 			buildPhases = (
-				4960543F8D784ED46A2468CB /* [CP] Check Pods Manifest.lock */,
+				C4B0D2C44631B68DF48831B2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -256,16 +255,16 @@
 			);
 			dependencies = (
 			);
-			name = "elderly-tvOS";
-			productName = "elderly-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* elderly-tvOS.app */;
+			name = "Elderly-tvOS";
+			productName = "Elderly-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Elderly-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* elderly-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Elderly-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "elderly-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Elderly-tvOSTests" */;
 			buildPhases = (
-				1C54CDF382D209054A9E7327 /* [CP] Check Pods Manifest.lock */,
+				3E0AF8BEC464036ADA849F32 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -275,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "elderly-tvOSTests";
-			productName = "elderly-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* elderly-tvOSTests.xctest */;
+			name = "Elderly-tvOSTests";
+			productName = "Elderly-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Elderly-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -304,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "elderly" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Elderly" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -317,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* elderly */,
-				00E356ED1AD99517003FC87E /* elderlyTests */,
-				2D02E47A1E0B4A5D006451C7 /* elderly-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* elderly-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Elderly */,
+				00E356ED1AD99517003FC87E /* ElderlyTests */,
+				2D02E47A1E0B4A5D006451C7 /* Elderly-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Elderly-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,55 +373,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0F7256A767F4851559215023 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-elderly/Pods-elderly-resources.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-elderly/Pods-elderly-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1C54CDF382D209054A9E7327 /* [CP] Check Pods Manifest.lock */ = {
+		2AEF685E8EE2E9B519DCFCED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,7 +388,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-elderly-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Elderly-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +409,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4960543F8D784ED46A2468CB /* [CP] Check Pods Manifest.lock */ = {
+		3E0AF8BEC464036ADA849F32 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,14 +424,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-elderly-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Elderly-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91DEBFBF0AAF5DF3843A506D /* [CP] Check Pods Manifest.lock */ = {
+		58E9759C2871BBE872850E29 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -495,14 +446,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-elderlyTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ElderlyTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F8D27BF79D32EF5F38FA6F7B /* [CP] Check Pods Manifest.lock */ = {
+		C4B0D2C44631B68DF48831B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-elderly-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Elderly-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -569,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* elderlyTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ElderlyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* elderlyTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ElderlyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* elderly */;
+			target = 13B07F861A680F5B00A75B9A /* Elderly */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* elderly-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Elderly-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -621,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = elderly;
+			path = Elderly;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -629,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F237F78378FF2A43013F2EA2 /* Pods-elderlyTests.debug.xcconfig */;
+			baseConfigurationReference = 8DC29363670948AA4275057B /* Pods-ElderlyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = elderlyTests/Info.plist;
+				INFOPLIST_FILE = ElderlyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -646,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elderly.app/elderly";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elderly.app/Elderly";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1918E1EE212BFF4B2DFB39BD /* Pods-elderlyTests.release.xcconfig */;
+			baseConfigurationReference = C8DF593754185458443AFC57 /* Pods-ElderlyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = elderlyTests/Info.plist;
+				INFOPLIST_FILE = ElderlyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -666,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elderly.app/elderly";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elderly.app/Elderly";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6194A38C720980BB1CA75894 /* Pods-elderly.debug.xcconfig */;
+			baseConfigurationReference = 819B0B609F95E5C0C51923D6 /* Pods-Elderly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = elderly/Info.plist;
+				INFOPLIST_FILE = Elderly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -685,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = elderly;
+				PRODUCT_NAME = Elderly;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B888C2C1D2C372FEA6125D97 /* Pods-elderly.release.xcconfig */;
+			baseConfigurationReference = BB7C66DB0744C2340909C160 /* Pods-Elderly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = elderly/Info.plist;
+				INFOPLIST_FILE = Elderly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -704,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = elderly;
+				PRODUCT_NAME = Elderly;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52B37BDE46ED3189F6713CAE /* Pods-elderly-tvOS.debug.xcconfig */;
+			baseConfigurationReference = C40783B1A68048D4B07723BC /* Pods-Elderly-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -722,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "elderly-tvOS/Info.plist";
+				INFOPLIST_FILE = "Elderly-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.elderly-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Elderly-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -739,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6208350CF131899B62629FF /* Pods-elderly-tvOS.release.xcconfig */;
+			baseConfigurationReference = 6F1292B1CEAF76C7B10B1D59 /* Pods-Elderly-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -750,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "elderly-tvOS/Info.plist";
+				INFOPLIST_FILE = "Elderly-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.elderly-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Elderly-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -767,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B715F36580FAC03F5E29B25 /* Pods-elderly-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 05E957ABD7C21A6ECBC72BD0 /* Pods-Elderly-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -777,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "elderly-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Elderly-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.elderly-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Elderly-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elderly-tvOS.app/elderly-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elderly-tvOS.app/Elderly-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4FAEF807A6CFC3DEE88D581 /* Pods-elderly-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 1C44F6FB65E80717DB54A3E9 /* Pods-Elderly-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -804,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "elderly-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Elderly-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.elderly-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Elderly-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elderly-tvOS.app/elderly-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elderly-tvOS.app/Elderly-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -921,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "elderlyTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ElderlyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -930,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "elderly" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Elderly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -939,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "elderly-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Elderly-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -948,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "elderly-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Elderly-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -957,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "elderly" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Elderly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
