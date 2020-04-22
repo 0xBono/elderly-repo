@@ -40,6 +40,8 @@ target 'Elderly' do
   pod 'Google-Maps-iOS-Utils'
   pod 'react-native-maps', path: rn_maps_path
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'ElderlyTests' do
     inherit! :search_paths
     # Pods for testing

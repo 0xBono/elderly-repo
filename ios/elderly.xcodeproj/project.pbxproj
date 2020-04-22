@@ -19,6 +19,34 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ElderlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ElderlyTests.m */; };
 		6594B8452F3A7C59E18B4C56 /* libPods-Elderly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCF4CB030B80863C5C22168 /* libPods-Elderly.a */; };
+		EC4A6A29244F62D900936CFE /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A0A244F62D900936CFE /* libDoubleConversion.a */; };
+		EC4A6A2A244F62D900936CFE /* libFBReactNativeSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A0B244F62D900936CFE /* libFBReactNativeSpec.a */; };
+		EC4A6A2B244F62D900936CFE /* libFolly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A0C244F62D900936CFE /* libFolly.a */; };
+		EC4A6A2C244F62D900936CFE /* libglog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A0D244F62D900936CFE /* libglog.a */; };
+		EC4A6A2D244F62D900936CFE /* libGoogle-Maps-iOS-Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A0E244F62D900936CFE /* libGoogle-Maps-iOS-Utils.a */; };
+		EC4A6A30244F62D900936CFE /* libPods-Elderly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A11244F62D900936CFE /* libPods-Elderly.a */; };
+		EC4A6A32244F62DA00936CFE /* libRCTTypeSafety.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A13244F62D900936CFE /* libRCTTypeSafety.a */; };
+		EC4A6A33244F62DA00936CFE /* libReact-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A14244F62D900936CFE /* libReact-Core.a */; };
+		EC4A6A34244F62DA00936CFE /* libReact-CoreModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A15244F62D900936CFE /* libReact-CoreModules.a */; };
+		EC4A6A35244F62DA00936CFE /* libReact-cxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A16244F62D900936CFE /* libReact-cxxreact.a */; };
+		EC4A6A36244F62DA00936CFE /* libReact-jsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A17244F62D900936CFE /* libReact-jsi.a */; };
+		EC4A6A37244F62DA00936CFE /* libReact-jsiexecutor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A18244F62D900936CFE /* libReact-jsiexecutor.a */; };
+		EC4A6A38244F62DA00936CFE /* libReact-jsinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A19244F62D900936CFE /* libReact-jsinspector.a */; };
+		EC4A6A39244F62DA00936CFE /* libreact-native-google-maps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A1A244F62D900936CFE /* libreact-native-google-maps.a */; };
+		EC4A6A3A244F62DA00936CFE /* libreact-native-maps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A1B244F62D900936CFE /* libreact-native-maps.a */; };
+		EC4A6A3B244F62DA00936CFE /* libreact-native-safe-area-context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A1C244F62D900936CFE /* libreact-native-safe-area-context.a */; };
+		EC4A6A3C244F62DA00936CFE /* libReact-RCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A1D244F62D900936CFE /* libReact-RCTActionSheet.a */; };
+		EC4A6A3D244F62DA00936CFE /* libReact-RCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A1E244F62D900936CFE /* libReact-RCTAnimation.a */; };
+		EC4A6A3E244F62DA00936CFE /* libReact-RCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A1F244F62D900936CFE /* libReact-RCTBlob.a */; };
+		EC4A6A3F244F62DA00936CFE /* libReact-RCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A20244F62D900936CFE /* libReact-RCTImage.a */; };
+		EC4A6A40244F62DA00936CFE /* libReact-RCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A21244F62D900936CFE /* libReact-RCTLinking.a */; };
+		EC4A6A41244F62DA00936CFE /* libReact-RCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A22244F62D900936CFE /* libReact-RCTNetwork.a */; };
+		EC4A6A42244F62DA00936CFE /* libReact-RCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A23244F62D900936CFE /* libReact-RCTSettings.a */; };
+		EC4A6A43244F62DA00936CFE /* libReact-RCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A24244F62D900936CFE /* libReact-RCTText.a */; };
+		EC4A6A44244F62DA00936CFE /* libReact-RCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A25244F62D900936CFE /* libReact-RCTVibration.a */; };
+		EC4A6A45244F62DB00936CFE /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A26244F62D900936CFE /* libReactCommon.a */; };
+		EC4A6A46244F62DB00936CFE /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A27244F62D900936CFE /* libRNGestureHandler.a */; };
+		EC4A6A47244F62DB00936CFE /* libYoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A28244F62D900936CFE /* libYoga.a */; };
 		FC3EEC0691502E2CB51E85C4 /* libPods-ElderlyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B565EF4054C766B7F347C2AA /* libPods-ElderlyTests.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +93,34 @@
 		BB7C66DB0744C2340909C160 /* Pods-Elderly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly.release.xcconfig"; path = "Target Support Files/Pods-Elderly/Pods-Elderly.release.xcconfig"; sourceTree = "<group>"; };
 		C40783B1A68048D4B07723BC /* Pods-Elderly-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elderly-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Elderly-tvOS/Pods-Elderly-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C8DF593754185458443AFC57 /* Pods-ElderlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElderlyTests.release.xcconfig"; path = "Target Support Files/Pods-ElderlyTests/Pods-ElderlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC4A6A0A244F62D900936CFE /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A0B244F62D900936CFE /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A0C244F62D900936CFE /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A0D244F62D900936CFE /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A0E244F62D900936CFE /* libGoogle-Maps-iOS-Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libGoogle-Maps-iOS-Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A11244F62D900936CFE /* libPods-Elderly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Elderly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A13244F62D900936CFE /* libRCTTypeSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A14244F62D900936CFE /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A15244F62D900936CFE /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A16244F62D900936CFE /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A17244F62D900936CFE /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A18244F62D900936CFE /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A19244F62D900936CFE /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A1A244F62D900936CFE /* libreact-native-google-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-google-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A1B244F62D900936CFE /* libreact-native-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A1C244F62D900936CFE /* libreact-native-safe-area-context.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A1D244F62D900936CFE /* libReact-RCTActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTActionSheet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A1E244F62D900936CFE /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A1F244F62D900936CFE /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A20244F62D900936CFE /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A21244F62D900936CFE /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A22244F62D900936CFE /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A23244F62D900936CFE /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A24244F62D900936CFE /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A25244F62D900936CFE /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A26244F62D900936CFE /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A27244F62D900936CFE /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A6A28244F62D900936CFE /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -82,7 +138,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4A6A29244F62D900936CFE /* libDoubleConversion.a in Frameworks */,
+				EC4A6A3F244F62DA00936CFE /* libReact-RCTImage.a in Frameworks */,
+				EC4A6A43244F62DA00936CFE /* libReact-RCTText.a in Frameworks */,
+				EC4A6A33244F62DA00936CFE /* libReact-Core.a in Frameworks */,
+				EC4A6A2D244F62D900936CFE /* libGoogle-Maps-iOS-Utils.a in Frameworks */,
+				EC4A6A36244F62DA00936CFE /* libReact-jsi.a in Frameworks */,
+				EC4A6A2C244F62D900936CFE /* libglog.a in Frameworks */,
+				EC4A6A44244F62DA00936CFE /* libReact-RCTVibration.a in Frameworks */,
+				EC4A6A32244F62DA00936CFE /* libRCTTypeSafety.a in Frameworks */,
 				6594B8452F3A7C59E18B4C56 /* libPods-Elderly.a in Frameworks */,
+				EC4A6A42244F62DA00936CFE /* libReact-RCTSettings.a in Frameworks */,
+				EC4A6A39244F62DA00936CFE /* libreact-native-google-maps.a in Frameworks */,
+				EC4A6A41244F62DA00936CFE /* libReact-RCTNetwork.a in Frameworks */,
+				EC4A6A35244F62DA00936CFE /* libReact-cxxreact.a in Frameworks */,
+				EC4A6A34244F62DA00936CFE /* libReact-CoreModules.a in Frameworks */,
+				EC4A6A38244F62DA00936CFE /* libReact-jsinspector.a in Frameworks */,
+				EC4A6A3B244F62DA00936CFE /* libreact-native-safe-area-context.a in Frameworks */,
+				EC4A6A2B244F62D900936CFE /* libFolly.a in Frameworks */,
+				EC4A6A3A244F62DA00936CFE /* libreact-native-maps.a in Frameworks */,
+				EC4A6A3C244F62DA00936CFE /* libReact-RCTActionSheet.a in Frameworks */,
+				EC4A6A30244F62D900936CFE /* libPods-Elderly.a in Frameworks */,
+				EC4A6A40244F62DA00936CFE /* libReact-RCTLinking.a in Frameworks */,
+				EC4A6A37244F62DA00936CFE /* libReact-jsiexecutor.a in Frameworks */,
+				EC4A6A2A244F62D900936CFE /* libFBReactNativeSpec.a in Frameworks */,
+				EC4A6A3D244F62DA00936CFE /* libReact-RCTAnimation.a in Frameworks */,
+				EC4A6A45244F62DB00936CFE /* libReactCommon.a in Frameworks */,
+				EC4A6A3E244F62DA00936CFE /* libReact-RCTBlob.a in Frameworks */,
+				EC4A6A46244F62DB00936CFE /* libRNGestureHandler.a in Frameworks */,
+				EC4A6A47244F62DB00936CFE /* libYoga.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +223,34 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC4A6A0A244F62D900936CFE /* libDoubleConversion.a */,
+				EC4A6A0B244F62D900936CFE /* libFBReactNativeSpec.a */,
+				EC4A6A0C244F62D900936CFE /* libFolly.a */,
+				EC4A6A0D244F62D900936CFE /* libglog.a */,
+				EC4A6A0E244F62D900936CFE /* libGoogle-Maps-iOS-Utils.a */,
+				EC4A6A11244F62D900936CFE /* libPods-Elderly.a */,
+				EC4A6A13244F62D900936CFE /* libRCTTypeSafety.a */,
+				EC4A6A14244F62D900936CFE /* libReact-Core.a */,
+				EC4A6A15244F62D900936CFE /* libReact-CoreModules.a */,
+				EC4A6A16244F62D900936CFE /* libReact-cxxreact.a */,
+				EC4A6A17244F62D900936CFE /* libReact-jsi.a */,
+				EC4A6A18244F62D900936CFE /* libReact-jsiexecutor.a */,
+				EC4A6A19244F62D900936CFE /* libReact-jsinspector.a */,
+				EC4A6A1A244F62D900936CFE /* libreact-native-google-maps.a */,
+				EC4A6A1B244F62D900936CFE /* libreact-native-maps.a */,
+				EC4A6A1C244F62D900936CFE /* libreact-native-safe-area-context.a */,
+				EC4A6A1D244F62D900936CFE /* libReact-RCTActionSheet.a */,
+				EC4A6A1E244F62D900936CFE /* libReact-RCTAnimation.a */,
+				EC4A6A1F244F62D900936CFE /* libReact-RCTBlob.a */,
+				EC4A6A20244F62D900936CFE /* libReact-RCTImage.a */,
+				EC4A6A21244F62D900936CFE /* libReact-RCTLinking.a */,
+				EC4A6A22244F62D900936CFE /* libReact-RCTNetwork.a */,
+				EC4A6A23244F62D900936CFE /* libReact-RCTSettings.a */,
+				EC4A6A24244F62D900936CFE /* libReact-RCTText.a */,
+				EC4A6A25244F62D900936CFE /* libReact-RCTVibration.a */,
+				EC4A6A26244F62D900936CFE /* libReactCommon.a */,
+				EC4A6A27244F62D900936CFE /* libRNGestureHandler.a */,
+				EC4A6A28244F62D900936CFE /* libYoga.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				9BCF4CB030B80863C5C22168 /* libPods-Elderly.a */,
@@ -161,7 +273,6 @@
 				8DC29363670948AA4275057B /* Pods-ElderlyTests.debug.xcconfig */,
 				C8DF593754185458443AFC57 /* Pods-ElderlyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -309,6 +420,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
