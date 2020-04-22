@@ -47,6 +47,7 @@
 		EC4A6A45244F62DB00936CFE /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A26244F62D900936CFE /* libReactCommon.a */; };
 		EC4A6A46244F62DB00936CFE /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A27244F62D900936CFE /* libRNGestureHandler.a */; };
 		EC4A6A47244F62DB00936CFE /* libYoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A6A28244F62D900936CFE /* libYoga.a */; };
+		ECE1FEAD244FE3BB0080CB3F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE1FEAC244FE3BB0080CB3F /* MaterialCommunityIcons.ttf */; };
 		FC3EEC0691502E2CB51E85C4 /* libPods-ElderlyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B565EF4054C766B7F347C2AA /* libPods-ElderlyTests.a */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,7 @@
 		EC4A6A26244F62D900936CFE /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4A6A27244F62D900936CFE /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4A6A28244F62D900936CFE /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE1FEAC244FE3BB0080CB3F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -286,6 +288,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				ECE1FEAB244FE3BB0080CB3F /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Elderly */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ElderlyTests */,
@@ -307,6 +310,14 @@
 				2D02E4901E0B4A5D006451C7 /* Elderly-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE1FEAB244FE3BB0080CB3F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1FEAC244FE3BB0080CB3F /* MaterialCommunityIcons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				ECE1FEAD244FE3BB0080CB3F /* MaterialCommunityIcons.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
