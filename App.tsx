@@ -12,6 +12,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import {Modalize} from 'react-native-modalize'; // 모달
 import {Host, Portal} from 'react-native-portalize'; // 모달 필요한 라이브러리
 import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps'; // 구글 맵
+import PlaceData from './src/json/place.json';
 
 const Tab = createBottomTabNavigator();
 
@@ -71,7 +72,7 @@ export class ExamplesScreen extends React.Component {
     const LONGITUDE = 126.7029735;
     const LATITUDE_DELTA = 0.0922;
     const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-
+    console.log(PlaceData);
     interface mapMarker {
       LATITUDE: any;
       LONGITUDE: any;
