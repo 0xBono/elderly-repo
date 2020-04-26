@@ -1,10 +1,12 @@
-import React, {useRef, constructor} from 'react'; // 프레임 워크
+/* eslint-disable react-native/no-inline-styles */
+import React, {useRef} from 'react'; // 프레임 워크
 import {
   View,
   TouchableOpacity,
   Text,
   Dimensions,
   StyleSheet,
+  Alert,
 } from 'react-native'; // 프레임워크
 import {NavigationContainer} from '@react-navigation/native'; // 이동 라우터 설정
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'; // 하단 탭
@@ -12,93 +14,102 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import {Modalize} from 'react-native-modalize'; // 모달
 import {Host, Portal} from 'react-native-portalize'; // 모달 필요한 라이브러리
 import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps'; // 구글 맵
-import PlaceData from './src/json/place.json';
 
 const Tab = createBottomTabNavigator();
 
-// const ExamplesScreen = () => {
-//   const modalRef = useRef<Modalize>(null);
+export const UpModal = () => {
+  const modalRef = useRef<Modalize>(null);
 
-//   const onOpen = () => {
-//     modalRef.current?.open();
-//   };
+  const onOpen = () => {
+    modalRef.current?.open();
+  };
+  return (
+    <>
+      <TouchableOpacity onPress={onOpen}>
+        <Text style={{marginTop: 100}}>Open the modal</Text>
+      </TouchableOpacity>
+      <Portal>
+        <Modalize snapPoint={384} ref={modalRef}>
+          <Text>...your content</Text>
+        </Modalize>
+      </Portal>
+    </>
+  );
+};
 
-//   const {width, height} = Dimensions.get('window'); //스크린 가로 세로
-//   const ASPECT_RATIO = width / height;
-//   const LATITUDE = 37.4568565;
-//   const LONGITUDE = 126.7029735;
-//   const LATITUDE_DELTA = 0.0922;
-//   const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-
-//   return (
-//     <>
-//       {/* <TouchableOpacity onPress={onOpen}>
-//         <Text style={{marginTop: 100}}>Open the modal</Text>
-//       </TouchableOpacity>
-
-//       <Portal>
-//         <Modalize snapPoint={384} ref={modalRef}>
-//           <Text>...your content</Text>
-//         </Modalize>
-//       </Portal> */}
-//       <View style={styles.container}>
-//         <MapView
-//           provider={PROVIDER_GOOGLE}
-//           style={styles.map}
-//           initialRegion={{
-//             latitude: LATITUDE,
-//             longitude: LONGITUDE,
-//             latitudeDelta: LATITUDE_DELTA,
-//             longitudeDelta: LONGITUDE_DELTA,
-//           }}
-//         />
-//       </View>
-//     </>
-//   );
-// };
-
-export class ExamplesScreen extends React.Component {
-  constructor(props: any) {
+class ExamplesScreen extends React.Component {
+  constructor(props: Readonly<{}>) {
     super(props);
 
     this.state = {
-      mapMarker: [],
+      markers: [
+        {
+          title: 'hello',
+          description: 'asds',
+          coordinates: {
+            latitude: 37.4568565,
+            longitude: 126.7029735,
+          },
+        },
+        {
+          title: 'hi',
+          coordinates: {
+            latitude: 17.458,
+            longitude: 78.3731,
+          },
+        },
+        {
+          title: 'gyp',
+          coordinates: {
+            latitude: 17.468,
+            longitude: 78.3631,
+          },
+        },
+        {
+          title: 'nig',
+          coordinates: {
+            latitude: 17.568,
+            longitude: 78.3831,
+          },
+        },
+        {
+          title: 'Yoy',
+          coordinates: {
+            latitude: 17.588,
+            longitude: 78.4831,
+          },
+        },
+      ],
     };
   }
   render() {
-    const {width, height} = Dimensions.get('window'); //스크린 가로 세로
-    const ASPECT_RATIO = width / height;
-    const LATITUDE = 37.4568565;
-    const LONGITUDE = 126.7029735;
-    const LATITUDE_DELTA = 0.0922;
-    const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-    console.log(PlaceData);
-    interface mapMarker {
-      LATITUDE: any;
-      LONGITUDE: any;
-    }
     return (
-      <View style={styles.container}>
+      <View style={{flex: 1, backgroundColor: 'white'}}>
         <MapView
           provider={PROVIDER_GOOGLE}
+          region={{
+            latitude: 37.4568565,
+            longitude: 126.7029735,
+            latitudeDelta: 0.015,
+            longitudeDelta: 0.0121,
+          }}
           style={styles.map}
-          initialRegion={{
-            latitude: LATITUDE,
-            longitude: LONGITUDE,
-            latitudeDelta: LATITUDE_DELTA,
-            longitudeDelta: LONGITUDE_DELTA,
-          }}>
-          {this.state.mapMarker.map((mapMarker: any) => (
-            <Marker
-              coordinate={{
-                latitude: LATITUDE,
-                longitude: LONGITUDE,
-              }}
-              title={'ㅁㅇㅁㄴㅇㄴㅁ'}
-              description={'ㅁㄴㅇㄴㅁㅇㄴㅁㅇ'}
-            />
-          ))}
+          showsUserLocation
+          showsMyLocationButton
+          showsCompass
+          zoomEnabled>
+          {this.state.markers.map(
+            (marker: {coordinates: any; title: any; description: any}) => (
+              <Marker
+                coordinate={marker.coordinates}
+                title={marker.title}
+                description={marker.description}
+                onPress={() => {console.log('asdsad')}}
+              />
+            ),
+          )}
         </MapView>
+        <UpModal />
       </View>
     );
   }
@@ -157,6 +168,19 @@ const styles = StyleSheet.create({
   },
   map: {
     ...StyleSheet.absoluteFillObject,
+  },
+  SectionStyle: {
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    borderWidth: 0.5,
+    borderColor: '#000',
+    height: 40,
+    borderRadius: 5,
+    margin: 10,
+  },
+  ImageStyle: {
+    padding: 10,
+    margin: 5,
   },
 });
 
