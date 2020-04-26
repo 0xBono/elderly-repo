@@ -1,3 +1,37 @@
-//장소
-
-//이름, 전화번호, 주소, 시설 종류
+// [
+//     {
+//         "id": "1",
+//         "title": "TEST",
+//         "description": "TEST",
+//         "latitude": "37.4568565",
+//         "longitude": "126.7029735"
+//     },
+//     {
+//         "id": "2",
+//         "title": "TEST1",
+//         "description": "TEST",
+//         "latitude": "37.4427327",
+//         "longitude": "126.6889856"
+//     },
+//     {
+//         "id": "3",
+//         "title": "TEST2",
+//         "description": "TEST",
+//         "latitude": "37.453056",
+//         "longitude": "126.719456"
+//     },
+//     {
+//         "id": "4",
+//         "title": "TEST3",
+//         "description": "TEST",
+//         "latitude": "37.4584999",
+//         "longitude": "126.7273157"
+//     },
+//     {
+//         "id": "5",
+//         "title": "TEST4",
+//         "description": "TEST",
+//         "latitude": "37.4643732",
+//         "longitude": "126.751647"
+//     }
+// ]
