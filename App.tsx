@@ -1,13 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {useRef} from 'react'; // 프레임 워크
-import {
-  View,
-  TouchableOpacity,
-  Text,
-  Dimensions,
-  StyleSheet,
-  Alert,
-} from 'react-native'; // 프레임워크
+import {View, TouchableOpacity, Text, StyleSheet} from 'react-native'; // 프레임워크
 import {NavigationContainer} from '@react-navigation/native'; // 이동 라우터 설정
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'; // 하단 탭
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -104,7 +97,6 @@ class ExamplesScreen extends React.Component {
                 coordinate={marker.coordinates}
                 title={marker.title}
                 description={marker.description}
-                onPress={() => {console.log('asdsad')}}
               />
             ),
           )}
